@@ -14,3 +14,14 @@ What value do you think it offers?
 	it possible to make a list of different files, and to make a commit that is logically
 	complete at once.
 	
+How can you use the staging area to make sure you have one commit per logical change?
+
+	You can view the differences between different states of file or files that you want
+	to commit. The command 'git diff' with no arguments will show the difference between
+	the files in the directory and the files in the staging area. 'git diff --staged'
+	will compare between the files in the staging area and the most recent commit.
+	This way you can see exactly what changes you are bringing to the commit and make
+	sure it is one logical change.
+	Also, if there's a file that you have changed in the working directory, by you don't
+	want to keep these changes (and you haven't staged them yet), the command
+	'git reset --hard' will erase them.
