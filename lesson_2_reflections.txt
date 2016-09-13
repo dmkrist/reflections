@@ -25,3 +25,12 @@ How can you use the staging area to make sure you have one commit per logical ch
 	Also, if there's a file that you have changed in the working directory, by you don't
 	want to keep these changes (and you haven't staged them yet), the command
 	'git reset --hard' will erase them.
+	
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+
+	When you want to try an experimental feature to the program, or change something
+	profound in it as an experiment, you should use branches (another example would be
+	trying out another language).
+	Branches allow to do just that, without ruining the linear flow of the main pogram
+	history.
