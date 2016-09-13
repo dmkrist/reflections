@@ -1,0 +1,16 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When initializing a repository, Git creates a folder '.git' where it will be
+	storing the version history of the repository. It does not, however, create
+	a first commit.
+	You need to make this initialization in order to prepare Git for recording
+	the files history. Otherwise there will be just current versions of the files.
+	
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	Staging area is a virtual part of git (unlike the physical directory or repository)
+	which allows you to temporarily	store files that you are going to commit. It makes
+	it possible to make a list of different files, and to make a commit that is logically
+	complete at once.
+	
