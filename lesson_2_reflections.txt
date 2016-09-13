@@ -34,3 +34,10 @@ How would branches help?
 	trying out another language).
 	Branches allow to do just that, without ruining the linear flow of the main pogram
 	history.
+	
+How do diagrams help you visualize the branch structure?
+
+	By drawing diagrams it is easier to see the reachability of different commits.
+	If you're making changes to a commit that is not the tip of the branch, you
+	actually create a detached commit, that will not be recorded in the history of
+	the branch unless you create a new branch from the current point.
