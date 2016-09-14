@@ -52,3 +52,12 @@ diagram the way we do?
 	to compare a commit to its parent.
 	Merged branches are represented in the diagram the way they are because it shows how
 	the branches' history stays accessible and how one branch "takes over" the other.
+	
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+	The pros are: speed and convenience - if the code doesn't have any obvious conflicts,
+	it is good to have an automated process to merge two files. It saves a lot of time and
+	work.
+	The cons are: Git is not smart enough to distinguish between real conflict and some minor
+	differences like spacing, so you may have to recheck file's states more often than you'd
+	like to.
