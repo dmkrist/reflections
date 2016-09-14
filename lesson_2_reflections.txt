@@ -41,3 +41,14 @@ How do diagrams help you visualize the branch structure?
 	If you're making changes to a commit that is not the tip of the branch, you
 	actually create a detached commit, that will not be recorded in the history of
 	the branch unless you create a new branch from the current point.
+	
+What is the result of merging two branches together? Why do we represent it in the
+diagram the way we do?
+
+	The result is that the the versions are combined between the branches that are being
+	merged, with the checked out branch as the main. It also leaves the history of the
+	different branches intact. So you could trace back every state of every commit.
+	While they are organized by timeline in 'git log', it is possible to use 'git show'
+	to compare a commit to its parent.
+	Merged branches are represented in the diagram the way they are because it shows how
+	the branches' history stays accessible and how one branch "takes over" the other.
