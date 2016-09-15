@@ -12,3 +12,16 @@ stay up-to-date with your remote repository?
 	for days. If in the middle your Git will update its state, all your changes will be
 	lost. And you don't want that to happen. So the pull must always be manual (as well
 	as the push, for similar reasons).
+	
+Describe the differences between forks, clones, and branches. When would you use one
+instead of another?
+
+	Forks are clones made on GitHub exclusively. They are a copy of someone else's
+	repository on GitHub to your profile's repository. You should use it if you want
+	to use someone else's project as a basis for your own, for example. Clones are
+	copies of repositories on your computer - both local copies and copies from GitHub.
+	You should use them to store data on your computer for better working environment
+	and offline availability. Branches are parts of the same repository which provide
+	the option to work on different versions simultaneously or try out experimental
+	features. You should use them if you want to keep a certain state of your work
+	intact while working on something additional for the same project at the same time.
