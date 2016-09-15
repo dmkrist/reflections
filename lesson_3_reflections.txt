@@ -1,5 +1,14 @@
 Whem would you want to use a remote repository rather than keeping all your work local?
 
-  If I'm working from different places, or if a group of people is involved in working
-  on the project, it is good idea to have a common remote repository to keep all of
-  the work at one place that is available for everyone.
+	If I'm working from different places, or if a group of people is involved in working
+	on the project, it is good idea to have a common remote repository to keep all of
+	the work at one place that is available for everyone.
+
+Why might you want to always pull changes manually rather than having Git automatically
+stay up-to-date with your remote repository?
+
+	Obviously, you might be currently working on an improvement or a bug fix for your
+	program. This work will probably take an undefined amount of time and could stretch
+	for days. If in the middle your Git will update its state, all your changes will be
+	lost. And you don't want that to happen. So the pull must always be manual (as well
+	as the push, for similar reasons).
