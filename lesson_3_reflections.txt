@@ -25,3 +25,9 @@ instead of another?
 	the option to work on different versions simultaneously or try out experimental
 	features. You should use them if you want to keep a certain state of your work
 	intact while working on something additional for the same project at the same time.
+	
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	It gives Git an option to compare what changes were made locally to what was pulled
+	the last time. Additionally, that way Git can also see whether changes were made remotely
+	since the last pull and determine whether fast-forward merge is possible.
