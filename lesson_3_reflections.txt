@@ -31,3 +31,12 @@ What is the benefit of having a copy of the last known state of the remote store
 	It gives Git an option to compare what changes were made locally to what was pulled
 	the last time. Additionally, that way Git can also see whether changes were made remotely
 	since the last pull and determine whether fast-forward merge is possible.
+	
+How would you collaborate without using Git or GitHub? What would be easier, and what would
+be harder?
+
+	I suppose that without version control workflow like Git & GitHub, the only option to
+	collaborate is to have each person do a separate thing on the project, with separate
+	files and codes. Git & GitHub allows to have different people work on different features
+	of the same code. Fixing different bugs or otherwise working on the same file at the same
+	time. It is definitely much easier and more efficient.
