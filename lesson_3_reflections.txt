@@ -40,3 +40,13 @@ be harder?
 	files and codes. Git & GitHub allows to have different people work on different features
 	of the same code. Fixing different bugs or otherwise working on the same file at the same
 	time. It is definitely much easier and more efficient.
+	
+When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?
+
+	If you want to introduce a change that is optional, or requires approval before submitting
+	into a larger working project, you'll want to use a separate branch. It will allow a
+	separate examination from others and if approved, it will be easy to merge into the main
+	branch even if other improvements have been introduced meanwhile.
+	The benefit of making changes directly in the master is of course that it's much simpler.
+	But this approach is generally more suitable for solo projects.
