@@ -1,0 +1,5 @@
+Whem would you want to use a remote repository rather than keeping all your work local?
+
+  If I'm working from different places, or if a group of people is involved in working
+  on the project, it is good idea to have a common remote repository to keep all of
+  the work at one place that is available for everyone.
